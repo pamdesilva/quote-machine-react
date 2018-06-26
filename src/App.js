@@ -36,9 +36,8 @@ class App extends Component {
 	};
 
 	tweetQuote = ( e ) => {
-		console.log( 'Tweet!' );
 		e.preventDefault();
-		window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent( '“' + this.state.quote + '”' + ' – ' + this.state.movie ) );
+		window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent( `“${this.state.quote}” – ${this.state.movie}`) );
 	};
 
 	render() {
@@ -52,7 +51,7 @@ class App extends Component {
         <div className="app">
           {
             this.state.quote ?
-              <Quote quoteText={quote} movieText={movie} /> : <p>Loading...</p>
+              <Quote quoteText={quote} movieText={movie} /> : <p className="loading">Loading...</p>
           }
         </div>
 				<div className="buttons">
