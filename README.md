@@ -4,7 +4,7 @@ Generates lines from famous movies and inserts it into pre-composed tweets. Quot
 
 ### To use
 
-[Sign up for an API key](https://market.mashape.com/andruxnet/random-famous-quotes) and insert the key in the env.example file. Rename file to just `.env`.
+[Sign up for an API key](https://market.mashape.com/andruxnet/random-famous-quotes) and insert the key in the *env.example* file. Rename file to just `.env`.
 Then start the server:
 
 ```
