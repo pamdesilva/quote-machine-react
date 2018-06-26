@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Quote = (props) => (
 	<div className="quoteBox">
@@ -10,5 +11,10 @@ const Quote = (props) => (
     <p className="movieText">— {props.movieText}</p>
   </div>
 );
+
+Quote.propTypes = {
+	quoteText: PropTypes.string.isRequired,
+  movieText: PropTypes.string.isRequired
+}
 
 export default Quote;

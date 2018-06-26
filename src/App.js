@@ -21,9 +21,9 @@ class App extends Component {
 		axios
 			.get( 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movies&count=1', {
 				headers: {
-					'X-Mashape-Key': 'MCQ4IHYl2xmshZziTdDt5NNQZAJjp10Ko3WjsnZ5LnK4efTX5U'
+					'X-Mashape-Key': process.env.REACT_APP_API_KEY
 				}
-			} )
+			})
 			.then( response => {
 				this.setState( {
 					quote: response.data[ 0 ].quote,
@@ -47,7 +47,7 @@ class App extends Component {
 			movie
 		} = this.state;
 		return (
-			<div class="container">
+			<div className="container">
         <h1>Famous Movie Lines</h1>
         <div className="app">
           {
