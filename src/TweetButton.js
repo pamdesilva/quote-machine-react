@@ -3,7 +3,7 @@ import React from 'react';
 const TweetButton = (props) => (
 	<button
 		type="button"
-		className="tweet-quote"
+		className="button button-tweet"
 		onClick={props.tweetQuote}
 		>
 		Tweet This

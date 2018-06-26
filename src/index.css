@@ -1,19 +1,72 @@
 body {
-  background: url(https://images.pexels.com/photos/713664/pexels-photo-713664.jpeg)
-  no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+  color: white;
+  font-family: 'Chivo', sans-serif;
+  color: #FF6666;
+  background: #fffdfd;
 }
 
-.App {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: tomato;
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+  margin-top: 5em;
+}
+
+.app {
+  flex: 1 0 auto;
+  width: 70%;
+  margin: auto;
+  padding: 2em;
+  border-radius: 10px;
+  background: #ffefef;
+  -webkit-box-shadow: 11px 10px 22px -5px rgba(117,117,117,1);
+-moz-box-shadow: 11px 10px 22px -5px rgba(117,117,117,1);
+box-shadow: 11px 10px 22px -5px rgba(117,117,117,1);
+}
+
+h1 {
+  font-family: 'Rancho', cursive;
+  font-size: 4em;
+  color: #6666ff;
+}
+
+.quoteBox {
+  text-align: center;
+}
+
+.quoteMarks {
+  font-size: 1.5em;
+}
+
+.quoteText {
+  font-family: 'Satisfy', cursive;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.movieText {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
   color: white;
-  padding: 150px;
+}
+
+.button {
+  margin: 1em;
+  padding: 0.3em 1em;
+  font-size: 1.6em;
+  border: none;
+  font-weight: 200;
+  border-radius: 10px;
+  background: #6666ff;
+  color: white;
+  font-family: 'Rancho', cursive;
 }

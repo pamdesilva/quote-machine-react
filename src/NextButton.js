@@ -3,7 +3,7 @@ import React from 'react';
 const NextButton = (props) => (
 	<button
 		type="button"
-		className="next-quote"
+		className="button button-next"
 		onClick={props.nextQuote}
 		>
 		Next Line
