@@ -29,13 +29,17 @@ class App extends Component {
       });
   };
 
-  tweetQuote = () => {
+  tweetQuote = (e) => {
     console.log('Tweet!');
+    e.preventDefault();
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(this.state.quote + ' – ' + this.state.movie));
   };
 
   render() {
     const { quote, movie } = this.state;
     return (
+      <div>
+      <h1>Famous Movie Lines</h1>
       <div className="App">
         {
           this.state.quote || this.state.movie ?
@@ -43,6 +47,7 @@ class App extends Component {
         }
         <NextButton nextQuote={this.fetchQuote} />
         <TweetButton tweetQuote={this.tweetQuote} />
+      </div>
       </div>
     );
   }
