@@ -1,1 +1,18 @@
-To start the server use `npm start --require dotenv/config`
+# Famous Movie Quotes Generator
+
+Generates lines from famous movies and lets users tweet their favourite line using the [Andrux API](https://market.mashape.com/andruxnet/random-famous-quotes).
+
+### To use
+
+[Sign up for an API key](https://market.mashape.com/andruxnet/random-famous-quotes) and insert the key in the env.example file. Rename file to `.env`.
+Then start the server:
+
+```
+npm start --require dotenv/config
+```
+
+## Built With
+
+* [React](https://reactjs.org/)
+* [Create React App](https://github.com/facebook/create-react-app)
+* [dotenv](https://www.npmjs.com/package/dotenv) - To encrypt API key
