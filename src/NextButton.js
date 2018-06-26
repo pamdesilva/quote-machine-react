@@ -6,7 +6,7 @@ const NextButton = (props) => (
 		className="next-quote"
 		onClick={props.nextQuote}
 		>
-		Next Quote
+		Next Line
 	</button>
 );
 
