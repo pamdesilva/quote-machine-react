@@ -1,7 +1,7 @@
 # Movie Quotes Generator 🎞 🍿
 
 Generates lines from famous movies and inserts it into pre-composed tweets.
-Quotes are pulled from the [Andrux API](https://market.mashape.com/andruxnet/random-famous-quotes).
+Quotes pulled from [Andrux API](https://market.mashape.com/andruxnet/random-famous-quotes).
 
 ### To use
 
