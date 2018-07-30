@@ -6,7 +6,7 @@ Generates lines from famous movies and inserts it into pre-composed tweets. Quot
 
 1. [Sign up for an API key](https://market.mashape.com/andruxnet/random-famous-quotes) and insert the key in the `env.example` file. 
 2. Rename `env.example` file to `.env`.
-3. Then start the server:
+3. Start the server:
 
 ```
 npm start --require dotenv/config
