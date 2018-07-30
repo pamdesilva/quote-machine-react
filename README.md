@@ -1,4 +1,4 @@
-# Movie Quotes Generator 🎞 🍿
+# Famous Movie Lines Generator 🍿
 
 Generates lines from famous movies and inserts it into pre-composed tweets. [See demo](https://react-movie-line-generator.netlify.com/).
 
