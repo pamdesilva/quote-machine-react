@@ -1,10 +1,10 @@
-# Movie Quotes Generator 🍿
+# Movie Quote Generator 🍿
 
 A little experiment: generate lines from famous movies and insert them into pre-composed tweets.
 
 [View the demo](https://moviequotes.pamela.io).
 
-## How it works
+### How it works
 
 Quotes are pulled from [Andrux API](https://market.mashape.com/andruxnet/random-famous-quotes).
 
