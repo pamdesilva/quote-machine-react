@@ -1,10 +1,14 @@
 # Movie Quotes Generator 🍿
 
-Generates lines from famous movies and inserts it into pre-composed tweets. [See demo](https://react-movie-line-generator.netlify.com/).
+A little experiment: generate lines from famous movies and insert them into pre-composed tweets.
 
-Quotes pulled from [Andrux API](https://market.mashape.com/andruxnet/random-famous-quotes).
+[View the demo](https://moviequotes.pamela.io).
 
-### To use
+## How it works
+
+Quotes are pulled from [Andrux API](https://market.mashape.com/andruxnet/random-famous-quotes).
+
+### Quickstart
 
 1. Install dependencies
 ```
